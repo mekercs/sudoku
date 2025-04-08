@@ -47,26 +47,7 @@ for (size_t i = 0; i < MERET; i++) {
                 szar[i][y] = random;
             }
         }
-    }
-    /*  // while (true) {
-      for (size_t i = 0; i < MERET; i++)
-      {
-          for (size_t j = 0; j < MERET; j++)
-          {
-              if (szar[i][j] == 0)
-              {
-                  if (szar[i][j] == szamok[j + 1] && szar[i][j] == szamok[i + 1])
-                  {
-                  }
-                  else
-                  {
-                      szar[i][j] = szamok[rand() % 9];
-                  }
-
-              }
-          }
-      }
-  */
+}
     for (size_t i = 0; i < MERET; i++)
     {
         for (size_t j = 0; j < MERET; j++)
